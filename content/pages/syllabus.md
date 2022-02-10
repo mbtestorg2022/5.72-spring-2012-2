@@ -12,7 +12,7 @@ Lectures: 2 sessions / week, 1.5 hours / session
 Course Description
 ------------------
 
-In this course we will discuss principles and methods of statistical mechanics. Topics will include: classical and quantum statistics, grand ensembles, fluctuations, molecular distribution functions, and other topics in equilibrium statistical mechanics. Topics in thermodynamics and statistical mechanics of irreversible processes will also be covered.
+This course discusses the principles and methods of non-equilibrium statistical mechanics. Basic topics covered are stochastic processes, regression and response theory, molecular hydrodynamics, and complex liquids. Selected applications, including fluctuation theorems, condensed phase reaction rate theory, electron transfer dynamics, enzymatic networks, photon counting statistics, single molecule kinetics, reaction-controlled diffusion, may also be discussed.
 
 Prerequisites
 -------------
@@ -26,17 +26,17 @@ Textbooks
 
 The following is a list of recommended textbooks that you may find useful for this course. No required readings will be assigned.
 
-[![Buy at Amazon](/images/a_logo_17.gif)](http://www.amazon.com/exec/obidos/ASIN/0486647412/ref=nosim/mitopencourse-20) Groot, Sybren Ruurds de, and Peter Mazur. _Non-Equilibrium Thermodynamics_. Dover Publications, 2011. ISBN: 9780486647418.
+Groot, Sybren Ruurds de, and Peter Mazur. _Non-Equilibrium Thermodynamics_. Dover Publications, 2011. ISBN: 9780486647418.
 
-[![Buy at Amazon](/images/a_logo_17.gif)](http://www.amazon.com/exec/obidos/ASIN/0444529659/ref=nosim/mitopencourse-20) Van Kampen, N. G. _Stochastic Processes in Physics and Chemistry_. Elsevier, 2007. ISBN: 9780444529657. \[Preview with [Google Books](http://books.google.com/books?id=N6II-6HlPxEC&lpg=PP1&pg=PP1#v=onepage&q&f=false)\]
+Van Kampen, N. G. _Stochastic Processes in Physics and Chemistry_. Elsevier, 2007. ISBN: 9780444529657. \[Preview with [Google Books](http://books.google.com/books?id=N6II-6HlPxEC&lpg=PP1&pg=PP1#v=onepage&q&f=false)\]
 
-[![Buy at Amazon](/images/a_logo_17.gif)](http://www.amazon.com/exec/obidos/ASIN/0070065608/ref=nosim/mitopencourse-20) Boon, Jean-Pierre, and Sidney Yip. _Molecular Hydrodynamics_. McGraw-Hill, 1980. ISBN: 9780070065604.
+Boon, Jean-Pierre, and Sidney Yip. _Molecular Hydrodynamics_. McGraw-Hill, 1980. ISBN: 9780070065604.
 
-[![Buy at Amazon](/images/a_logo_17.gif)](http://www.amazon.com/exec/obidos/ASIN/0471595209/ref=nosim/mitopencourse-20) Reichl, Linda E. _ A Modern Course in Statistical Physics_. Wiley-Interscience, 1998. ISBN: 9780471595205.
+Reichl, Linda E. _A Modern Course in Statistical Physics_. Wiley-Interscience, 1998. ISBN: 9780471595205.
 
-[![Buy at Amazon](/images/a_logo_17.gif)](http://www.amazon.com/exec/obidos/ASIN/0123705355/ref=nosim/mitopencourse-20) Hansen, Jean-Pierre, and Ian R. McDonald. _Theory of Simple Liquids_. Elsevier Academic Press, 2006. ISBN: 9780123705358. \[Preview with [Google Books](http://books.google.com/books?id=Uhm87WZBnxEC&pg=Pafrontcover)\]
+Hansen, Jean-Pierre, and Ian R. McDonald. _Theory of Simple Liquids_. Elsevier Academic Press, 2006. ISBN: 9780123705358. \[Preview with [Google Books](http://books.google.com/books?id=Uhm87WZBnxEC&pg=Pafrontcover)\]
 
-[![Buy at Amazon](/images/a_logo_17.gif)](http://www.amazon.com/exec/obidos/ASIN/1891389157/ref=nosim/mitopencourse-20) McQuarrie, Donald A. _Statistical Mechanics_. University Science Books, 2000. ISBN: 9781891389153.
+McQuarrie, Donald A. _Statistical Mechanics_. University Science Books, 2000. ISBN: 9781891389153.
 
 Assignments
 -----------
@@ -53,20 +53,175 @@ Grading
 
 This course will be graded based on the following:
 
-| ACTIVITIES | PERCENTAGES |
-| --- | --- |
-| Class participation | 10% |
-| Four problem sets | 50% |
-| Final project | 40% 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+ACTIVITIES
+{{< thclose >}}
+{{< thopen >}}
+PERCENTAGES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Class participation
+{{< tdclose >}}
+{{< tdopen >}}
+10%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Four problem sets
+{{< tdclose >}}
+{{< tdopen >}}
+50%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Final project
+{{< tdclose >}}
+{{< tdopen >}}
+40%
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Calendar
 --------
 
 Please note: each chapter of lecture notes is multiple lectures, and each section is roughly equivalent to one week.
 
-| CHAPTER # | TOPICS | SUBTOPICS |
-| --- | --- | --- |
-| 1 | Stochastic Processes and Brownian Motion |  {{< br >}}{{< br >}} 1.1 Markov Processes {{< br >}}{{< br >}} > 1.1.1 Probability Distributions and Transitions{{< br >}}> {{< br >}}> 1.1.2 The Transition Probability Matrix{{< br >}}> {{< br >}}> 1.1.3 Detailed Balance {{< br >}}{{< br >}} 1.2 Master Equations {{< br >}}{{< br >}} > 1.2.1 Motivation and Derivation{{< br >}}> {{< br >}}> 1.2.2 Mean First Passage Time {{< br >}}{{< br >}} 1.3 Fokker-Planck Equations {{< br >}}{{< br >}} > 1.3.1 Motivation and Derivation{{< br >}}> {{< br >}}> 1.3.2 Properties of Fokker-Planck Equations {{< br >}}{{< br >}} 1.4 The Langevin Equation {{< br >}}{{< br >}} 1.5 Appendix: Applications of Brownian Motion {{< br >}}{{< br >}}  |
-| 2 | Non-equilibrium Thermodynamics |  {{< br >}}{{< br >}} 2.1 Response, Relaxation, and Correlation {{< br >}}{{< br >}} 2.2 Onsager Regression Theory {{< br >}}{{< br >}} 2.3 Response Response Theory and Causality {{< br >}}{{< br >}} > 2.3.1 Response Functions{{< br >}}> {{< br >}}> 2.3.2 Absorption Power Spectra{{< br >}}> {{< br >}}> 2.3.3 Causality and the Kramers-Kronig Relations {{< br >}}{{< br >}}  |
-| 3 | Hydrodynamics and Light Scattering |  {{< br >}}{{< br >}} 3.1 Light Scattering {{< br >}}{{< br >}} 3.2 Navier-Stokes Hydrodynamic Equations {{< br >}}{{< br >}} 3.3 Transport Coefficients {{< br >}}{{< br >}}  |
-| 4 | Time Correlation Functions |  {{< br >}}{{< br >}} 4.1 Short-time Behavior {{< br >}}{{< br >}} 4.2 Projection Operator Method {{< br >}}{{< br >}} 4.3 Viscoelastic Model {{< br >}}{{< br >}} 4.4 Long-time Tails and Mode-coupling Theory {{< br >}}{{< br >}}
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+CHAPTER #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+SUBTOPICS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Stochastic Processes and Brownian Motion
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+1.1 Markov Processes
+
+> 1.1.1 Probability Distributions and Transitions
+> 
+> 1.1.2 The Transition Probability Matrix
+> 
+> 1.1.3 Detailed Balance
+
+1.2 Master Equations
+
+> 1.2.1 Motivation and Derivation
+> 
+> 1.2.2 Mean First Passage Time
+
+1.3 Fokker-Planck Equations
+
+> 1.3.1 Motivation and Derivation
+> 
+> 1.3.2 Properties of Fokker-Planck Equations
+
+1.4 The Langevin Equation
+
+1.5 Appendix: Applications of Brownian Motion
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Non-equilibrium Thermodynamics
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2.1 Response, Relaxation, and Correlation
+
+2.2 Onsager Regression Theory
+
+2.3 Response Response Theory and Causality
+
+> 2.3.1 Response Functions
+> 
+> 2.3.2 Absorption Power Spectra
+> 
+> 2.3.3 Causality and the Kramers-Kronig Relations
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Hydrodynamics and Light Scattering
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+3.1 Light Scattering
+
+3.2 Navier-Stokes Hydrodynamic Equations
+
+3.3 Transport Coefficients
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Time Correlation Functions
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+4.1 Short-time Behavior
+
+4.2 Projection Operator Method
+
+4.3 Viscoelastic Model
+
+4.4 Long-time Tails and Mode-coupling Theory
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

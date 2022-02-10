@@ -34,10 +34,10 @@
   },
   "course_image": {
     "content": "35b03ee5-4397-63ef-0fab-624b90fc8601",
-    "website": "5-72-statistical-mechanics-spring-2012"
+    "website": "5-72-non-equilibrium-statistical-mechanics-spring-2012"
   },
-  "course_title": "Statistical Mechanics",
-  "course_description": "This course discusses the principles and methods of statistical mechanics. Topics covered include classical and quantum statistics, grand ensembles, fluctuations, molecular distribution functions, other concepts in equilibrium statistical mechanics, and topics in thermodynamics and statistical mechanics of irreversible processes.\n",
+  "course_title": "Non-Equilibrium Statistical Mechanics",
+  "course_description": "This course discusses the principles and methods of non-equilibrium statistical mechanics. Basic topics covered are stochastic processes, regression and response theory, molecular hydrodynamics, and complex liquids. Selected applications, including fluctuation theorems, condensed phase reaction rate theory, electron transfer dynamics, enzymatic networks, photon counting statistics, single molecule kinetics, reaction-controlled diffusion, may also be discussed.\n",
   "department_numbers": [
     "5"
   ],
@@ -45,13 +45,13 @@
   "primary_course_number": "5.72",
   "course_image_thumbnail": {
     "content": "b4b9a638-d5ed-f3dd-ae92-27adb0b9d50b",
-    "website": "5-72-statistical-mechanics-spring-2012"
+    "website": "5-72-non-equilibrium-statistical-mechanics-spring-2012"
   },
   "learning_resource_types": [
     "Problem Sets",
     "Lecture Notes",
     "Projects"
   ],
-  "site_uid": "ae9f12f5-d63d-429d-8388-ce178fa21bd9",
+  "site_uid": "c38d3dcd-7d88-42c4-a88a-aab82861812d",
   "title": "Course Metadata"
 }
